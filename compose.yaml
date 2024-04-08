@@ -1,0 +1,12 @@
+version: '1.0'
+
+services:
+  my-api:
+    image: my-api-image:latest
+    container_name: my-api-container
+    ports:
+      - "80:4000"
+    environment:
+      - NODE_ENV=production
+      - PORT=4000
+    restart: always
