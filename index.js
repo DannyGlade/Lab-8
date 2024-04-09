@@ -10,6 +10,6 @@ app.use(bodyParser.json());
 
 app.use("/api", pathRouter);
 
-app.listen(PORT, HOST, () => {
+app.listen(PORT, () => {
     console.log(`Server is running on http://${HOST}:${PORT}`);
 });

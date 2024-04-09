@@ -7,6 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
+    "git-export": "git archive --format zip --output ../lab-8.zip HEAD",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Darshan Nariya",
